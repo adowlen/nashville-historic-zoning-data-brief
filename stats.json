@@ -1,0 +1,588 @@
+{
+  "dataset": "Nashville Metropolitan Historic Zoning Commission Permits (Metropolitan_Historic_Zoning_Commission_Permits_view, layer 0)",
+  "snapshot_date": "2026-11-09",
+  "rows": 9171,
+  "unit": "one row = one historic-zoning commission permit case as served by the view",
+  "server_count": 9171,
+  "accepted_range": [
+    "2011-12-07",
+    "2026-11-06"
+  ],
+  "issued_range": [
+    "2011-12-07",
+    "2026-11-06"
+  ],
+  "case_type_counter": {
+    "Historical Commission Permit": 9171
+  },
+  "subtype_counter": {
+    "Historic New Construction": 2650,
+    "HC - Additions - General": 2191,
+    "HC - Out Building": 1612,
+    "Historic Alteration": 1061,
+    "Historic Demolition": 865,
+    "Historic Signage": 452,
+    "HC - Alterations Roof": 149,
+    "HC - Alteration Fence": 93,
+    "Historic Alteration - Disaster Related": 40,
+    "NCC Gravesite": 25,
+    "Historic Relocation": 14,
+    "HC \u2013 Landmark Interior": 7,
+    "HC - Alterations Roof - Disaster Related": 5,
+    "HC \u2013 Landmark Signage": 4,
+    "Historic Demolition - Disaster Related": 3
+  },
+  "status_code_counter": {
+    "DONE": 7173,
+    "ISSUE": 1897,
+    "OPEN": 95,
+    "CLOSED": 6
+  },
+  "permit_status_counter": {
+    "": 5099,
+    "Issued": 3796,
+    "Received": 255,
+    "Deferred": 21
+  },
+  "permit_status_blank_n": 5099,
+  "decision_counter": {
+    "Disapproved": 5416,
+    "Administratively Approved": 2553,
+    "Approved": 1181,
+    "Deferred": 21
+  },
+  "approved_admin_n": 3734,
+  "approved_admin_pct_of_all": 40.7,
+  "disapproved_n": 5416,
+  "disapproved_pct_of_all": 59.1,
+  "with_issued_date_n": 8337,
+  "with_issued_date_pct": 90.9,
+  "without_issued_date_n": 834,
+  "disapproved_with_issued_date_n": 4602,
+  "issued_status_n": 3796,
+  "issued_status_and_disapproved_n": 62,
+  "gap": {
+    "both_dates": 8337,
+    "negative_n": 0,
+    "nonneg_n": 8337,
+    "gap_n": 8337,
+    "median_days": 0,
+    "mean_days": 14.9,
+    "p90_days": 32,
+    "same_day_n": 4985,
+    "same_day_pct": 59.8,
+    "over_30_n": 856,
+    "over_30_pct": 10.3,
+    "over_90_pct": 3.2,
+    "max_days": 2764,
+    "median_days_if_positive": 17.0,
+    "positive_n": 3352
+  },
+  "by_subtype": {
+    "Historic New Construction": {
+      "n": 2650,
+      "dated": 2352,
+      "gap_n": 2352,
+      "median_days": 13.0,
+      "mean_days": 23.0,
+      "p90_days": 50,
+      "same_day_n": 971,
+      "same_day_pct": 41.3,
+      "over_30_n": 387,
+      "over_30_pct": 16.5,
+      "over_90_pct": 5.4,
+      "max_days": 1059,
+      "approved_admin_n": 234
+    },
+    "Historic Alteration": {
+      "n": 1061,
+      "dated": 999,
+      "gap_n": 999,
+      "median_days": 0,
+      "mean_days": 5.5,
+      "p90_days": 0,
+      "same_day_n": 901,
+      "same_day_pct": 90.2,
+      "over_30_n": 15,
+      "over_30_pct": 1.5,
+      "over_90_pct": 0.5,
+      "max_days": 2764,
+      "approved_admin_n": 463
+    },
+    "Historic Demolition": {
+      "n": 865,
+      "dated": 803,
+      "gap_n": 803,
+      "median_days": 0,
+      "mean_days": 6.9,
+      "p90_days": 13,
+      "same_day_n": 704,
+      "same_day_pct": 87.7,
+      "over_30_n": 29,
+      "over_30_pct": 3.6,
+      "over_90_pct": 1.7,
+      "max_days": 910,
+      "approved_admin_n": 395
+    },
+    "Historic Signage": {
+      "n": 452,
+      "dated": 397,
+      "gap_n": 397,
+      "median_days": 0,
+      "mean_days": 8.1,
+      "p90_days": 19,
+      "same_day_n": 267,
+      "same_day_pct": 67.3,
+      "over_30_n": 19,
+      "over_30_pct": 4.8,
+      "over_90_pct": 1.5,
+      "max_days": 234,
+      "approved_admin_n": 178
+    },
+    "Historic Relocation": {
+      "n": 14,
+      "dated": 13,
+      "gap_n": 13,
+      "median_days": 0,
+      "mean_days": 1.1,
+      "p90_days": 0,
+      "same_day_n": 12,
+      "same_day_pct": 92.3,
+      "over_30_n": 0,
+      "over_30_pct": 0.0,
+      "over_90_pct": 0.0,
+      "max_days": 14,
+      "approved_admin_n": 2
+    },
+    "HC - Additions - General": {
+      "n": 2191,
+      "dated": 1999,
+      "gap_n": 1999,
+      "median_days": 0,
+      "mean_days": 16.3,
+      "p90_days": 37,
+      "same_day_n": 1035,
+      "same_day_pct": 51.8,
+      "over_30_n": 230,
+      "over_30_pct": 11.5,
+      "over_90_pct": 3.4,
+      "max_days": 729,
+      "approved_admin_n": 1310
+    },
+    "HC - Out Building": {
+      "n": 1612,
+      "dated": 1461,
+      "gap_n": 1461,
+      "median_days": 0,
+      "mean_days": 14.5,
+      "p90_days": 36,
+      "same_day_n": 806,
+      "same_day_pct": 55.2,
+      "over_30_n": 170,
+      "over_30_pct": 11.6,
+      "over_90_pct": 3.0,
+      "max_days": 897,
+      "approved_admin_n": 952
+    },
+    "HC - Alteration Fence": {
+      "n": 93,
+      "dated": 89,
+      "gap_n": 89,
+      "median_days": 0,
+      "mean_days": 2.8,
+      "p90_days": 1,
+      "same_day_n": 80,
+      "same_day_pct": 89.9,
+      "over_30_n": 1,
+      "over_30_pct": 1.1,
+      "over_90_pct": 1.1,
+      "max_days": 156,
+      "approved_admin_n": 53
+    },
+    "HC - Alterations Roof": {
+      "n": 149,
+      "dated": 145,
+      "gap_n": 145,
+      "median_days": 0,
+      "mean_days": 6.3,
+      "p90_days": 0,
+      "same_day_n": 138,
+      "same_day_pct": 95.2,
+      "over_30_n": 2,
+      "over_30_pct": 1.4,
+      "over_90_pct": 0.7,
+      "max_days": 836,
+      "approved_admin_n": 71
+    },
+    "HC \u2013 Landmark Interior": {
+      "n": 7,
+      "dated": 6,
+      "gap_n": 6,
+      "median_days": 0.0,
+      "mean_days": 28.7,
+      "p90_days": 157,
+      "same_day_n": 4,
+      "same_day_pct": 66.7,
+      "over_30_n": 1,
+      "over_30_pct": 16.7,
+      "over_90_pct": 16.7,
+      "max_days": 157,
+      "approved_admin_n": 4
+    },
+    "Historic Alteration - Disaster Related": {
+      "n": 40,
+      "dated": 38,
+      "gap_n": 38,
+      "median_days": 0.0,
+      "mean_days": 12.9,
+      "p90_days": 11,
+      "same_day_n": 32,
+      "same_day_pct": 84.2,
+      "over_30_n": 2,
+      "over_30_pct": 5.3,
+      "over_90_pct": 2.6,
+      "max_days": 407,
+      "approved_admin_n": 37
+    },
+    "HC - Alterations Roof - Disaster Related": {
+      "n": 5,
+      "dated": 5,
+      "gap_n": 5,
+      "median_days": 0,
+      "mean_days": 0,
+      "p90_days": 0,
+      "same_day_n": 5,
+      "same_day_pct": 100.0,
+      "over_30_n": 0,
+      "over_30_pct": 0.0,
+      "over_90_pct": 0.0,
+      "max_days": 0,
+      "approved_admin_n": 5
+    },
+    "HC \u2013 Landmark Signage": {
+      "n": 4,
+      "dated": 4,
+      "gap_n": 4,
+      "median_days": 0.0,
+      "mean_days": 0,
+      "p90_days": 0,
+      "same_day_n": 4,
+      "same_day_pct": 100.0,
+      "over_30_n": 0,
+      "over_30_pct": 0.0,
+      "over_90_pct": 0.0,
+      "max_days": 0,
+      "approved_admin_n": 4
+    },
+    "Historic Demolition - Disaster Related": {
+      "n": 3,
+      "dated": 1,
+      "gap_n": 1,
+      "median_days": 0,
+      "mean_days": 0,
+      "p90_days": 0,
+      "same_day_n": 1,
+      "same_day_pct": 100.0,
+      "over_30_n": 0,
+      "over_30_pct": 0.0,
+      "over_90_pct": 0.0,
+      "max_days": 0,
+      "approved_admin_n": 1
+    },
+    "NCC Gravesite": {
+      "n": 25,
+      "dated": 25,
+      "gap_n": 25,
+      "median_days": 0,
+      "mean_days": 0,
+      "p90_days": 0,
+      "same_day_n": 25,
+      "same_day_pct": 100.0,
+      "over_30_n": 0,
+      "over_30_pct": 0.0,
+      "over_90_pct": 0.0,
+      "max_days": 0,
+      "approved_admin_n": 25
+    }
+  },
+  "by_decision": {
+    "Disapproved": {
+      "n": 5416,
+      "dated": 4602,
+      "gap_n": 4602,
+      "median_days": 0.0,
+      "mean_days": 15.2,
+      "p90_days": 28,
+      "same_day_n": 2819,
+      "same_day_pct": 61.3,
+      "over_30_n": 429,
+      "over_30_pct": 9.3,
+      "over_90_pct": 3.4,
+      "max_days": 2764
+    },
+    "Administratively Approved": {
+      "n": 2553,
+      "dated": 2553,
+      "gap_n": 2553,
+      "median_days": 0,
+      "mean_days": 3.3,
+      "p90_days": 4,
+      "same_day_n": 2053,
+      "same_day_pct": 80.4,
+      "over_30_n": 62,
+      "over_30_pct": 2.4,
+      "over_90_pct": 0.8,
+      "max_days": 496
+    },
+    "Approved": {
+      "n": 1181,
+      "dated": 1181,
+      "gap_n": 1181,
+      "median_days": 20,
+      "mean_days": 38.5,
+      "p90_days": 79,
+      "same_day_n": 112,
+      "same_day_pct": 9.5,
+      "over_30_n": 365,
+      "over_30_pct": 30.9,
+      "over_90_pct": 7.8,
+      "max_days": 729
+    },
+    "Deferred": {
+      "n": 21,
+      "dated": 1,
+      "gap_n": 1,
+      "median_days": 0,
+      "mean_days": 0,
+      "p90_days": 0,
+      "same_day_n": 1,
+      "same_day_pct": 100.0,
+      "over_30_n": 0,
+      "over_30_pct": 0.0,
+      "over_90_pct": 0.0,
+      "max_days": 0
+    }
+  },
+  "by_year_accepted": {
+    "2011": {
+      "n": 15,
+      "dated": 15,
+      "median_days": 0,
+      "approved_admin_pct": 0.0
+    },
+    "2012": {
+      "n": 392,
+      "dated": 342,
+      "median_days": 0.0,
+      "approved_admin_pct": 0.0
+    },
+    "2013": {
+      "n": 465,
+      "dated": 423,
+      "median_days": 0,
+      "approved_admin_pct": 0.0
+    },
+    "2014": {
+      "n": 497,
+      "dated": 455,
+      "median_days": 0,
+      "approved_admin_pct": 0.0
+    },
+    "2015": {
+      "n": 552,
+      "dated": 495,
+      "median_days": 0,
+      "approved_admin_pct": 0.0
+    },
+    "2016": {
+      "n": 631,
+      "dated": 576,
+      "median_days": 0.0,
+      "approved_admin_pct": 0.0
+    },
+    "2017": {
+      "n": 625,
+      "dated": 558,
+      "median_days": 0.0,
+      "approved_admin_pct": 0.0
+    },
+    "2018": {
+      "n": 563,
+      "dated": 521,
+      "median_days": 0,
+      "approved_admin_pct": 0.0
+    },
+    "2019": {
+      "n": 583,
+      "dated": 549,
+      "median_days": 0,
+      "approved_admin_pct": 0.0
+    },
+    "2020": {
+      "n": 783,
+      "dated": 732,
+      "median_days": 0.0,
+      "approved_admin_pct": 9.3
+    },
+    "2021": {
+      "n": 794,
+      "dated": 725,
+      "median_days": 0,
+      "approved_admin_pct": 90.4
+    },
+    "2022": {
+      "n": 733,
+      "dated": 671,
+      "median_days": 0,
+      "approved_admin_pct": 91.5
+    },
+    "2023": {
+      "n": 689,
+      "dated": 631,
+      "median_days": 0,
+      "approved_admin_pct": 91.3
+    },
+    "2024": {
+      "n": 698,
+      "dated": 608,
+      "median_days": 1.0,
+      "approved_admin_pct": 87.1
+    },
+    "2025": {
+      "n": 630,
+      "dated": 576,
+      "median_days": 0.0,
+      "approved_admin_pct": 91.4
+    },
+    "2026": {
+      "n": 521,
+      "dated": 460,
+      "median_days": 0.0,
+      "approved_admin_pct": 88.1
+    }
+  },
+  "zip_counter_top10": [
+    [
+      "37206",
+      3472
+    ],
+    [
+      "37212",
+      1778
+    ],
+    [
+      "37205",
+      887
+    ],
+    [
+      "37204",
+      799
+    ],
+    [
+      "37208",
+      692
+    ],
+    [
+      "37201",
+      480
+    ],
+    [
+      "37203",
+      267
+    ],
+    [
+      "37216",
+      243
+    ],
+    [
+      "37209",
+      145
+    ],
+    [
+      "NO_ZIP_IN_ADDRESS",
+      112
+    ]
+  ],
+  "zip_37206_n": 3472,
+  "zip_37206_pct": 37.9,
+  "zip_top3_n": 6137,
+  "zip_top3_pct": 66.9,
+  "address_blank_n": 109,
+  "apn_blank_n": 109,
+  "distinct_apn": 4352,
+  "distinct_address": 5034,
+  "top_address": [
+    [
+      "401  OAK ST, NASHVILLE, TN 37210",
+      33
+    ],
+    [
+      "3777  NOLENSVILLE PIKE, NASHVILLE, TN 37211",
+      23
+    ],
+    [
+      "1001  BROADWAY , NASHVILLE, TN 37203",
+      14
+    ],
+    [
+      "411  BROADWAY , NASHVILLE, TN 37203",
+      12
+    ],
+    [
+      "120  2ND AVE N, NASHVILLE, TN 37201",
+      12
+    ]
+  ],
+  "top_apn": [
+    [
+      "10503000300",
+      34
+    ],
+    [
+      "13300000400",
+      28
+    ],
+    [
+      "08112041500",
+      21
+    ],
+    [
+      "09306307100",
+      18
+    ],
+    [
+      "09306210000",
+      16
+    ]
+  ],
+  "derived_per_year": 611.4,
+  "decision_by_era": {
+    "accepted_2011_2020": {
+      "n": 5106,
+      "approved_admin_n": 73,
+      "approved_admin_pct": 1.4
+    },
+    "accepted_2021_2026": {
+      "n": 4065,
+      "approved_admin_n": 3661,
+      "approved_admin_pct": 90.1
+    }
+  },
+  "comparison_published": {
+    "building_permits_issued_2026_11_03": {
+      "median_days": 29.0,
+      "basis": "29,650 issued building permits with valid entered-to-issued gaps, rolling 3 years to 2026-11-02",
+      "repo": "https://github.com/adowlen/nashville-building-permits-data-brief"
+    },
+    "trade_permits_2026_11_07": {
+      "same_day_pct": 87.1,
+      "basis": "107,210 dated trade permits with non-negative gaps, 2023-10-12 to 2026-10-16 entries",
+      "repo": "https://github.com/adowlen/nashville-trade-permits-data-brief"
+    },
+    "building_permit_applications_2026_11_04": {
+      "median_pending_age_days": 330,
+      "basis": "6,036 not-yet-issued applications as of 2026-11-03",
+      "repo": "https://github.com/adowlen/nashville-building-permit-applications-data-brief"
+    }
+  }
+}
