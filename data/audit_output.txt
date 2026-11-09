@@ -1,0 +1,75 @@
+ROWS 9171
+OBJECTID unique 9171
+COUNTER CASE_TYPE n_unique=1
+  'HCPERMIT': 9171
+COUNTER CASE_TYPE_DESC n_unique=1
+  'Historical Commission Permit': 9171
+COUNTER SUB_TYPE n_unique=15
+  'HCNEWCON': 2650
+  'HCNEWAD': 2191
+  'HC OUTBLDG': 1612
+  'HCALTER': 1061
+  'HCDEMO': 865
+  'HCSIGNAGE': 452
+  'HCROOF': 149
+  'HCFENCE': 93
+  'HCDISA': 40
+  'HCGRAVE': 25
+  'HCRELOCATE': 14
+  'HCLANDINT': 7
+  'HCDISR': 5
+  'HCLANDSIG': 4
+  'HCDISD': 3
+COUNTER SUB_TYPE_DESC n_unique=15
+  'Historic New Construction': 2650
+  'HC - Additions - General': 2191
+  'HC - Out Building': 1612
+  'Historic Alteration': 1061
+  'Historic Demolition': 865
+  'Historic Signage': 452
+  'HC - Alterations Roof': 149
+  'HC - Alteration Fence': 93
+  'Historic Alteration - Disaster Related': 40
+  'NCC Gravesite': 25
+  'Historic Relocation': 14
+  'HC – Landmark Interior': 7
+  'HC - Alterations Roof - Disaster Related': 5
+  'HC – Landmark Signage': 4
+  'Historic Demolition - Disaster Related': 3
+COUNTER STATUS_CODE n_unique=4
+  'DONE': 7173
+  'ISSUE': 1897
+  'OPEN': 95
+  'CLOSED': 6
+COUNTER PermitStatus n_unique=4
+  '': 5099
+  'Issued': 3796
+  'Received': 255
+  'Deferred': 21
+COUNTER Decision n_unique=4
+  'Disapproved': 5416
+  'Administratively Approved': 2553
+  'Approved': 1181
+  'Deferred': 21
+DATES DATE_ACCEPTED present=9171 missing=0 min=2011-12-07 max=2026-11-06
+  sentinel check: year<1990=0 year 1970=0 raw 0/negative=0
+  UTC hour census {0: 27, 1: 17, 2: 25, 3: 8, 4: 1, 11: 9, 12: 112, 13: 667, 14: 1129, 15: 1115, 16: 1072, 17: 875, 18: 795, 19: 1069, 20: 1133, 21: 755, 22: 298, 23: 64}
+DATES DATE_ISSUED present=8337 missing=834 min=2011-12-07 max=2026-11-06
+  sentinel check: year<1990=0 year 1970=0 raw 0/negative=0
+  UTC hour census {0: 11, 1: 8, 2: 9, 3: 6, 4: 1, 7: 1, 8: 1, 11: 8, 12: 87, 13: 657, 14: 1056, 15: 1085, 16: 1043, 17: 826, 18: 679, 19: 925, 20: 996, 21: 644, 22: 252, 23: 42}
+DATES HCDECISION_DATE present=8118 missing=1053 min=2011-12-07 max=2026-11-06
+  sentinel check: year<1990=0 year 1970=0 raw 0/negative=0
+  UTC hour census {5: 5583, 6: 2535}
+DATES HCSCHMEET_DATE present=8472 missing=699 min=2011-12-19 max=2026-11-18
+  sentinel check: year<1990=0 year 1970=0 raw 0/negative=0
+  UTC hour census {5: 5884, 6: 2588}
+BOTH DATES 8337 negative 0 zero 4985 positive 3352
+POLARITY SAMPLE matched (both dates, first 3): [('201100293', '2011-12-07', '2011-12-07', 0), ('201100295', '2011-12-08', '2011-12-09', 1), ('201100298', '2011-12-15', '2011-12-15', 0)]
+POLARITY SAMPLE excluded (missing a date, first 3): [('T201200207', '1343920414000', '', '', 'Disapproved'), ('T201200242', '1346420965000', '', '', 'Disapproved'), ('T201200290', '1349373716000', '', '', 'Disapproved')]
+MISSING accepted only-missing 0 issued-missing 834
+UNIT AGREEMENT: every rate numerator and denominator are permit records (rows) in the stated population; no parcel/person units mixed. Approval share denominator stated explicitly wherever used.
+UNKNOWN EXCLUSION: missing/blank Decision and PermitStatus counted as their own blank category and excluded only from decided-only denominators, which are printed.
+APN blank 109 ADDRESS blank 109
+ZIP parsed from ADDRESS tail [('37206', 3472), ('37212', 1778), ('37205', 887), ('37204', 799), ('37208', 692), ('37201', 480), ('37203', 267), ('37216', 243), ('37209', 145), ('NO_ZIP_IN_ADDRESS', 112), ('37210', 64), ('37219', 62), ('37207', 39), ('37211', 30), ('37214', 26), ('37221', 25), ('37076', 13), ('00000', 11), ('37115', 8), ('37027', 5)]
+STREET (address minus house number) top20 [('RUSSELL ST, NASHVILLE, TN 37206', 288), ('FATHERLAND ST, NASHVILLE, TN 37206', 283), ('BOSCOBEL ST, NASHVILLE, TN 37206', 203), ('HOLLY ST, NASHVILLE, TN 37206', 193), ('SHELBY AVE, NASHVILLE, TN 37206', 184), ('2ND AVE N, NASHVILLE, TN 37201', 172), ('WOODLAND ST, NASHVILLE, TN 37206', 138), ('FORREST AVE, NASHVILLE, TN 37206', 136), ('5TH AVE N, NASHVILLE, TN 37208', 136), ('4TH AVE N, NASHVILLE, TN 37208', 126), ('BROADWAY , NASHVILLE, TN 37201', 125), ('BELMONT BLVD, NASHVILLE, TN 37212', 122), ('LILLIAN ST, NASHVILLE, TN 37206', 116), ('BROADWAY , NASHVILLE, TN 37203', 111), ('BLANK', 109), ('ASHWOOD AVE, NASHVILLE, TN 37212', 107), ('GARTLAND AVE, NASHVILLE, TN 37206', 100), ('CEDAR LN, NASHVILLE, TN 37212', 97), ('SWEETBRIAR AVE, NASHVILLE, TN 37212', 96), ('6TH AVE N, NASHVILLE, TN 37208', 94)]
+PermitStatus x Decision {('', 'Disapproved'): 5099, ('Deferred', 'Deferred'): 21, ('Issued', 'Administratively Approved'): 2553, ('Issued', 'Approved'): 1181, ('Issued', 'Disapproved'): 62, ('Received', 'Disapproved'): 255}

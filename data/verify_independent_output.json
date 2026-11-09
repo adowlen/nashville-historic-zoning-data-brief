@@ -1,0 +1,114 @@
+{
+  "checks": [
+    {
+      "check": "rows",
+      "got": 9171,
+      "want": 9171,
+      "pass": true
+    },
+    {
+      "check": "server_count_live",
+      "got": 9171,
+      "want": 9171,
+      "pass": true
+    },
+    {
+      "check": "with_issued",
+      "got": 8337,
+      "want": 8337,
+      "pass": true
+    },
+    {
+      "check": "gap_n",
+      "got": 8337,
+      "want": 8337,
+      "pass": true
+    },
+    {
+      "check": "gap_negative",
+      "got": 0,
+      "want": 0,
+      "pass": true
+    },
+    {
+      "check": "median",
+      "got": 0.0,
+      "want": 0.0,
+      "pass": true
+    },
+    {
+      "check": "same_day_n",
+      "got": 4985,
+      "want": 4985,
+      "pass": true
+    },
+    {
+      "check": "same_day_pct",
+      "got": 59.8,
+      "want": 59.8,
+      "pass": true
+    },
+    {
+      "check": "over_30_n",
+      "got": 856,
+      "want": 856,
+      "pass": true
+    },
+    {
+      "check": "median_if_positive",
+      "got": 17.0,
+      "want": 17.0,
+      "pass": true
+    },
+    {
+      "check": "approved_admin_n",
+      "got": 3734,
+      "want": 3734,
+      "pass": true
+    },
+    {
+      "check": "disapproved_n",
+      "got": 5416,
+      "want": 5416,
+      "pass": true
+    },
+    {
+      "check": "disapproved_with_issued",
+      "got": 4602,
+      "want": 4602,
+      "pass": true
+    },
+    {
+      "check": "issued_status_n",
+      "got": 3796,
+      "want": 3796,
+      "pass": true
+    },
+    {
+      "check": "subtype_top_n",
+      "got": 2650,
+      "want": 2650,
+      "pass": true
+    },
+    {
+      "check": "zip_37206_n",
+      "got": 3472,
+      "want": 3472,
+      "pass": true
+    },
+    {
+      "check": "accepted_min",
+      "got": "2011-12-07",
+      "want": "2011-12-07",
+      "pass": true
+    },
+    {
+      "check": "accepted_max",
+      "got": "2026-11-06",
+      "want": "2026-11-06",
+      "pass": true
+    }
+  ],
+  "pass": 18,
+  "total": 18
+}
